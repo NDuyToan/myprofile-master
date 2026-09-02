@@ -546,7 +546,7 @@ export const portfolioData: PortfolioData = {
     ],
     contactInfo: {
       email: "nguyenduytoanbkdn@gmail.com",
-      secondaryEmail: "nguyenduytoanbkdn@gmail.com",
+      secondaryEmail: "saolangthang144@gmail.com",
       phone: "034 861 8373",
       linkedin: "https://www.linkedin.com/in/toan-nguyen-dev/",
       github: "https://github.com/NDuyToan",
@@ -1259,7 +1259,7 @@ export const portfolioData: PortfolioData = {
     },
     contactInfo: {
       email: "nguyenduytoanbkdn@gmail.com",
-      secondaryEmail: "nguyenduytoanbkdn@gmail.com",
+      secondaryEmail: "saolangthang144@gmail.com",
       phone: "034 861 8373",
       linkedin: "https://www.linkedin.com/in/toan-nguyen-dev/",
       github: "https://github.com/NDuyToan",

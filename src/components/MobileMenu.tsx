@@ -34,7 +34,7 @@ export const MobileMenu: React.FC<MobileMenuProps> = ({
         onClick={toggleMenu}
         aria-label={isOpen ? "Close menu" : "Open menu"}
         aria-expanded={isOpen}
-        className="relative z-[61] flex h-9 w-9 cursor-pointer items-center justify-center rounded-full border border-gray-200/80 bg-gray-50/90 text-gray-700 smooth-transition hover:bg-white dark:border-gray-700/80 dark:bg-gray-800/60 dark:text-gray-200 dark:hover:bg-gray-700 md:hidden"
+        className="relative z-[61] flex h-9 w-9 cursor-pointer items-center justify-center rounded-full border border-gray-200/80 bg-gray-50/90 text-gray-700 smooth-transition hover:bg-white dark:border-gray-700/80 dark:bg-gray-800/60 dark:text-gray-200 dark:hover:bg-gray-700 lg:hidden"
       >
         <i className={`fas ${isOpen ? "fa-times" : "fa-bars"}`} />
       </button>
@@ -45,7 +45,7 @@ export const MobileMenu: React.FC<MobileMenuProps> = ({
         aria-hidden={!isOpen}
         tabIndex={isOpen ? 0 : -1}
         onClick={closeMenu}
-        className={`mobile-menu-overlay fixed h-[100dvh] w-full inset-0 z-40 bg-black/50 backdrop-blur-sm md:hidden ${isOpen ? "mobile-menu-overlay--open" : "mobile-menu-overlay--closed"
+        className={`mobile-menu-overlay fixed h-[100dvh] w-full inset-0 z-40 bg-black/50 backdrop-blur-sm lg:hidden ${isOpen ? "mobile-menu-overlay--open" : "mobile-menu-overlay--closed"
           }`}
       />
 
@@ -53,7 +53,7 @@ export const MobileMenu: React.FC<MobileMenuProps> = ({
         aria-label="Mobile navigation"
         aria-hidden={!isOpen}
         inert={!isOpen}
-        className={`mobile-menu-panel fixed -right-5 top-0 z-100 flex w-[min(88%,22rem)] flex-col border-l border-gray-200 bg-white shadow-2xl dark:border-gray-700 dark:bg-gray-900 md:hidden ${isOpen ? "mobile-menu-panel--open" : "mobile-menu-panel--closed"
+        className={`mobile-menu-panel fixed -right-5 top-0 z-100 flex w-[min(88%,22rem)] flex-col border-l border-gray-200 bg-white shadow-2xl dark:border-gray-700 dark:bg-gray-900 lg:hidden ${isOpen ? "mobile-menu-panel--open" : "mobile-menu-panel--closed"
           }`}
       >
         <div className="flex shrink-0 items-center justify-between border-b border-gray-200 px-5 py-5 dark:border-gray-700">

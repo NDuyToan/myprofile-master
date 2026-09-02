@@ -72,7 +72,7 @@ function HomeContent() {
               </span>
             </p>
 
-            <p className="mx-auto mt-6 max-w-2xl text-sm leading-relaxed text-gray-600 dark:text-gray-400 sm:text-base">
+            <p className="mx-auto mt-6 max-w-2xl text-sm leading-relaxed text-gray-600 dark:text-gray-400 sm:text-base [text-wrap:balance]">
               {t(
                 portfolioData.hero.shortDescription.vi,
                 portfolioData.hero.shortDescription.en

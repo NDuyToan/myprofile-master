@@ -53,14 +53,14 @@ export const Navigation: React.FC = () => {
             <span className="block truncate text-sm font-semibold leading-tight text-gray-900 dark:text-white md:text-base">
               {t(portfolioData.hero.name.vi, portfolioData.hero.name.en)}
             </span>
-            <span className="block truncate text-xs font-medium text-gray-500 dark:text-gray-400">
+            <span className="hidden truncate text-xs font-medium text-gray-500 dark:text-gray-400 xl:block">
               {t(portfolioData.hero.title.vi, portfolioData.hero.title.en)}
             </span>
           </span>
         </a>
 
-        <div className="hidden min-w-0 flex-1 items-center justify-center md:flex">
-          <ul className="flex max-w-full items-center justify-center gap-0.5 overflow-x-auto rounded-full border border-gray-200/80 bg-gray-100/70 p-1 [-ms-overflow-style:none] [scrollbar-width:none] dark:border-gray-700/80 dark:bg-gray-800/50 [&::-webkit-scrollbar]:hidden lg:flex-wrap">
+        <div className="hidden min-w-0 flex-1 items-center justify-center lg:flex">
+          <ul className="flex max-w-full items-center justify-center gap-0.5 rounded-full border border-gray-200/80 bg-gray-100/70 p-1 dark:border-gray-700/80 dark:bg-gray-800/50">
             {portfolioData.navigation.map((link) => {
               const sectionId = link.href.slice(1);
               const isActive = activeSection === sectionId;
@@ -106,7 +106,7 @@ export const Navigation: React.FC = () => {
               />
             </button>
           </div>
-          <div className="md:hidden">
+          <div className="lg:hidden">
             <MobileMenu
               isOpen={mobileMenuOpen}
               onOpenChange={setMobileMenuOpen}
