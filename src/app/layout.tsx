@@ -15,9 +15,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Nguyen Duy Toan - Middle Frontend Developer",
+  title: "Nguyen Duy Toan - Frontend Developer | Aspiring Full Stack",
   description:
-    "Middle Frontend Developer with 4+ years of experience specializing in React, Next.js, TypeScript, and modern web application development. Experienced in building scalable enterprise management systems, government platforms, and WebView applications.",
+    "Frontend Developer with 4+ years of experience specializing in React, Next.js, and TypeScript, actively advancing into Backend development with NestJS, Prisma, and PostgreSQL toward Full Stack engineering.",
 };
 
 export default function RootLayout({

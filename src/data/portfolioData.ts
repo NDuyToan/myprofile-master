@@ -405,31 +405,33 @@ export const portfolioData: PortfolioData = {
 
   personalProject: {
     badge: {
-      vi: "Dự án cá nhân",
-      en: "Personal Project",
+      vi: "Dự án cá nhân Full-Stack",
+      en: "Featured Full-Stack Project",
     },
-    brand: "Kinder PMS",
+    brand: "Badminton Shop",
     title: {
-      vi: "Hệ thống Quản lý Trường mầm non SaaS",
-      en: "SaaS Preschool Management System",
+      vi: "Hệ thống E-Commerce Cầu lông Full-Stack (Next.js & NestJS)",
+      en: "Full-Stack Badminton E-Commerce Platform (Next.js & NestJS)",
     },
     description: {
-      vi: "Nền tảng Cloud SaaS giúp số hóa toàn diện hoạt động quản lý trường mầm non — tuyển sinh, học sinh, lớp học, giáo viên, học phí và kết nối phụ huynh trên một hệ thống thống nhất.",
-      en: "A Cloud SaaS platform that digitizes preschool operations end-to-end — admissions, students, classrooms, teachers, tuition, and parent communication in one unified system.",
+      vi: "Hệ thống thương mại điện tử chuyên biệt cho sản phẩm cầu lông, áp dụng kiến trúc monorepo gồm Client (Next.js), Admin Portal và Backend RESTful API (NestJS). Tích hợp cơ sở dữ liệu PostgreSQL qua Prisma ORM, phân quyền JWT, quản lý sản phẩm, danh mục, giỏ hàng, đơn hàng và container hóa bằng Docker.",
+      en: "A specialized badminton e-commerce platform built with a modern monorepo architecture featuring Client (Next.js), Admin Portal, and Backend RESTful API (NestJS). Integrated with PostgreSQL via Prisma ORM, JWT authentication, catalog/product management, cart and orders, containerized with Docker and PM2.",
     },
     technologies: [
+      "NestJS",
       "Next.js",
       "TypeScript",
-      "Zustand",
-      "React Query",
-      "Shadcn UI",
-      "Supabase",
+      "PostgreSQL",
+      "Prisma",
+      "Tailwind CSS",
+      "Docker",
+      "RESTful API",
     ],
     image: "/images/kinderpms-banner.png",
-    url: "https://kinderpms.cudem.online",
+    url: "https://github.com/NDuyToan",
     cta: {
-      vi: "Xem sản phẩm",
-      en: "View live product",
+      vi: "Xem mã nguồn dự án",
+      en: "View project source",
     },
   },
 
@@ -443,20 +445,20 @@ export const portfolioData: PortfolioData = {
       en: "Nguyen Duy Toan",
     },
     title: {
-      vi: "Middle Frontend Developer",
-      en: "Middle Frontend Developer",
+      vi: "Frontend Developer | Định hướng Full Stack",
+      en: "Frontend Developer | Aspiring Full Stack",
     },
     description: {
-      vi: "Kỹ sư Frontend với hơn 4 năm kinh nghiệm chuyên sâu về React, Next.js và TypeScript. Tôi có kinh nghiệm xây dựng các hệ thống quản trị doanh nghiệp và chính phủ quy mô lớn từ đầu, phát triển thư viện component tái sử dụng, tối ưu hóa giao diện WebView và xử lý form/dữ liệu phức tạp với hiệu năng cao và khả năng bảo trì bền vững.",
-      en: "Frontend Developer with 4+ years of experience specializing in React, Next.js, and TypeScript. Experienced in architecting scalable enterprise and government platforms from the ground up, building reusable component libraries, optimizing WebView applications, and handling complex data workflows with high performance and maintainability.",
+      vi: "Kỹ sư Frontend với hơn 4 năm kinh nghiệm chuyên sâu về React, Next.js và TypeScript, đang tích cực mở rộng sang Backend với NestJS, Prisma và PostgreSQL để hướng tới Full Stack Developer. Tôi có thế mạnh xây dựng các hệ thống quản trị doanh nghiệp và chính phủ quy mô lớn từ đầu, thiết kế component tái sử dụng, tối ưu hóa giao diện WebView và hiện đang phát triển dự án full-stack Badminton Shop với kiến trúc monorepo hoàn chỉnh.",
+      en: "Frontend Developer with 4+ years of hands-on experience in React, Next.js, and TypeScript, actively expanding into Backend engineering with NestJS, Prisma, and PostgreSQL toward becoming a Full Stack Developer. Proven track record in building enterprise and government platforms from scratch, modular component design, WebView optimization, and currently developing a full-stack Badminton Shop project with modern monorepo architecture.",
     },
     shortDescription: {
-      vi: "Kỹ sư Frontend với hơn 4 năm kinh nghiệm phát triển các ứng dụng web production hiện đại bằng React, Next.js và TypeScript. Chuyên sâu về kiến trúc frontend module hóa, giao diện WebView mượt mà, phân quyền RBAC và tối ưu hiệu năng toàn diện.",
-      en: "Frontend Developer with 4+ years of experience building modern production web applications using React, Next.js, and TypeScript. Specialized in modular frontend architecture, smooth WebView experiences, RBAC security, and end-to-end performance optimization.",
+      vi: "Frontend Developer hơn 4 năm kinh nghiệm thực chiến (React, Next.js, TypeScript), đang phát triển năng lực Full Stack với NestJS, Node.js, Prisma, PostgreSQL, Docker và CI/CD qua các dự án thực tế.",
+      en: "Frontend Developer with 4+ years of production experience (React, Next.js, TypeScript), actively advancing toward Full Stack with NestJS, Node.js, Prisma, PostgreSQL, Docker, and CI/CD through hands-on projects.",
     },
     availability: {
-      vi: "Sẵn sàng cho cơ hội mới",
-      en: "Available for new opportunities",
+      vi: "Sẵn sàng cho cơ hội mới (Frontend / Full Stack)",
+      en: "Open to new opportunities (Frontend / Full Stack)",
     },
     yearsExperience: "4+",
     buttons: {
@@ -469,8 +471,8 @@ export const portfolioData: PortfolioData = {
         en: "Download CV",
       },
       cv: {
-        vi: "/cv/CV_Frontend_Developer_Nguyen_Duy_Toan_EN.pdf",
-        en: "/cv/CV_Frontend_Developer_Nguyen_Duy_Toan_EN.pdf",
+        vi: "/cv/CV_Nguyen_Duy_Toan_Frontend_Developer_VI.pdf",
+        en: "/cv/CV_Nguyen_Duy_Toan_Frontend_Developer_EN.pdf",
       },
     },
   },
@@ -481,8 +483,8 @@ export const portfolioData: PortfolioData = {
       en: "About Me",
     },
     headline: {
-      vi: "Tận tâm với chất lượng, hướng đến khả năng mở rộng",
-      en: "Dedicated to Craftsmanship, Engineered for Scale",
+      vi: "Nền tảng Frontend vững chắc, chủ động mở rộng sang Backend & Full Stack",
+      en: "Solid Frontend Foundation, Actively Advancing into Full Stack",
     },
     stats: [
       {
@@ -510,36 +512,36 @@ export const portfolioData: PortfolioData = {
       },
     ],
     description1: {
-      vi: "Tôi là Middle Frontend Developer với hơn 4 năm kinh nghiệm thực chiến trong việc phát triển các ứng dụng web và hệ thống quản trị hiện đại sử dụng React, Next.js, TypeScript và Vue.js.",
-      en: "I am a Middle Frontend Developer with 4+ years of hands-on experience building modern, production-grade web applications and enterprise platforms using React, Next.js, TypeScript, and Vue.js.",
+      vi: "Tôi là Frontend Developer với hơn 4 năm kinh nghiệm thực chiến trong việc phát triển các ứng dụng web và hệ thống quản trị hiện đại sử dụng React, Next.js, TypeScript và Vue.js. Mục tiêu nghề nghiệp hiện tại của tôi là trở thành một Full Stack Developer toàn diện.",
+      en: "I am a Frontend Developer with 4+ years of hands-on experience building modern, production-grade web applications and enterprise platforms using React, Next.js, TypeScript, and Vue.js. My current career objective is to grow into a well-rounded Full Stack Developer.",
     },
     description2: {
-      vi: "Trong suốt quá trình làm việc, tôi đã trực tiếp tham gia xây dựng nhiều nền tảng thực tế từ con số 0: từ hệ thống quản lý lao động quy mô lớn cho chính quyền địa phương Hàn Quốc, cổng thông tin đối tác & tuyển dụng, ví điện tử tích hợp WebView cho đến các ứng dụng bảo hiểm và thương mại điện tử. Thế mạnh của tôi nằm ở việc thiết kế kiến trúc component chuẩn mực, xử lý logic form phức tạp, phân quyền bảo mật và tối ưu trải nghiệm người dùng trên mọi thiết bị.",
+      vi: "Trong suốt quá trình làm việc, tôi đã trực tiếp tham gia xây dựng nhiều nền tảng thực tế từ con số 0: từ hệ thống quản lý lao động quy mô lớn cho chính quyền địa phương Hàn Quốc, cổng thông tin đối tác & tuyển dụng Linglow, ví điện tử Goodtraepay tích hợp WebView cho đến các ứng dụng bảo hiểm M&A. Thế mạnh của tôi nằm ở việc thiết kế kiến trúc component chuẩn mực, xử lý logic form phức tạp, phân quyền bảo mật (RBAC) và tối ưu trải nghiệm người dùng trên mọi thiết bị.",
       en: "Throughout my career, I have contributed directly to building diverse platforms from the ground up: large-scale government workforce management systems in South Korea, partner & recruitment portals, WebView e-wallets, and insurance applications. My core strength lies in clean component architecture, complex form handling, role-based access control, and delivering smooth, responsive user experiences across all devices.",
     },
     description3: {
-      vi: "Bên cạnh chuyên môn frontend, tôi chủ động mở rộng hiểu biết về Node.js, Express.js, NestJS, Prisma, SQL, MongoDB, Docker và quy trình CI/CD. Nền tảng này giúp tôi có cái nhìn toàn diện về vòng đời phát triển phần mềm, thiết kế API tương thích tốt và phối hợp ăn ý cùng đội ngũ Backend, QA và Product.",
-      en: "In addition to frontend engineering, I continuously expand my knowledge in Node.js, Express.js, NestJS, Prisma, SQL, MongoDB, Docker, and CI/CD workflows. This foundational backend understanding enables me to grasp the entire application lifecycle, design reliable API contracts, and collaborate seamlessly with Backend, QA, and Product teams.",
+      vi: "Để hiện thực hóa mục tiêu Full Stack, tôi đang tập trung học tập và thực hành chuyên sâu về Backend với Node.js, NestJS, Prisma ORM, PostgreSQL, Docker và CI/CD. Tôi đang trực tiếp áp dụng các kiến thức này vào dự án cá nhân Badminton Shop — xây dựng kiến trúc monorepo từ Client, Admin Portal đến Backend RESTful API bằng NestJS, quản lý dữ liệu với PostgreSQL và tự động hóa triển khai qua GitLab CI/CD. Nền tảng này giúp tôi có cái nhìn toàn diện về vòng đời phát triển phần mềm, thiết kế API contract chặt chẽ và phối hợp ăn ý cùng các đội ngũ.",
+      en: "To achieve my Full Stack goal, I am actively diving deep into Backend development with Node.js, NestJS, Prisma ORM, PostgreSQL, Docker, and CI/CD workflows. I am currently applying these skills in my personal project, Badminton Shop — implementing a complete monorepo architecture spanning Client, Admin Portal, and a NestJS RESTful API backend, managing data with PostgreSQL, and automating deployment via GitLab CI/CD. Mastering both client and server domains enables me to grasp the entire application lifecycle, design reliable API contracts, and collaborate seamlessly with cross-functional teams.",
     },
     highlights: [
       {
         text: {
-          vi: "Phát triển cổng quản trị chính phủ từ đầu: thiết kế kiến trúc frontend, phân quyền RBAC đa cấp (Super Admin, Master Admin, Admin) và xử lý dữ liệu lớn với ExcelJS.",
+          vi: "Phát triển cổng quản trị chính phủ từ đầu: thiết kế kiến trúc frontend module hóa, phân quyền RBAC đa cấp (Super Admin, Master Admin, Admin) và xử lý dữ liệu lớn với ExcelJS.",
           en: "Architected government admin portals from scratch: implementing multi-level RBAC (Super Admin, Master Admin, Admin) and processing large-scale workforce data with ExcelJS.",
         },
         icon: "fas fa-shield-alt",
       },
       {
         text: {
-          vi: "Chuẩn hóa thư viện Component và Design Pattern tái sử dụng, đảm bảo giao diện Responsive đồng nhất và tối ưu trải nghiệm trên Desktop, Tablet, Mobile và WebView.",
-          en: "Standardized reusable component libraries and design patterns, ensuring seamless responsive design across Desktop, Tablet, Mobile, and WebView platforms.",
+          vi: "Phát triển Full-Stack thực chiến với NestJS & PostgreSQL: thiết kế kiến trúc monorepo, xây dựng RESTful API, quản lý dữ liệu với Prisma ORM và xác thực tài khoản JWT trong dự án Badminton Shop.",
+          en: "Hands-on Full-Stack development with NestJS & PostgreSQL: designing monorepo architecture, building RESTful APIs, data management with Prisma ORM, and JWT authentication in the Badminton Shop project.",
         },
-        icon: "fas fa-layer-group",
+        icon: "fas fa-server",
       },
       {
         text: {
-          vi: "Tối ưu hóa hiệu năng chuyên sâu thông qua Lazy Loading, Code Splitting, API Caching, tối ưu hóa rendering và chuẩn hóa quy trình upload tệp tin (nén ảnh, convert HEIC sang PNG).",
-          en: "Enhanced application performance through Lazy Loading, Code Splitting, API Caching, rendering optimization, and optimized file upload pipelines (compression, HEIC to PNG).",
+          vi: "Tối ưu hóa hiệu năng & Triển khai thực tế: Tối ưu rendering, Code Splitting, API Caching, tối ưu upload tệp (nén ảnh, convert HEIC sang PNG), cùng kinh nghiệm container hóa với Docker và vận hành Linux/PM2.",
+          en: "Performance Optimization & Practical Deployment: Enhancing rendering, Code Splitting, API Caching, file upload pipelines (compression, HEIC to PNG), containerization with Docker, and Linux/PM2 server operation.",
         },
         icon: "fas fa-bolt",
       },
@@ -567,12 +569,12 @@ export const portfolioData: PortfolioData = {
       en: "Tech Stack & Engineering Skills",
     },
     subtitle: {
-      vi: "Tập trung vào hệ sinh thái hiện đại, hiệu năng cao và giải pháp có khả năng mở rộng lâu dài.",
-      en: "Focused on modern, scalable, and high-performance frontend ecosystems.",
+      vi: "Nền tảng Frontend vững chắc kết hợp năng lực Backend đang được phát triển bài bản để hướng tới Full Stack.",
+      en: "A solid Frontend foundation combined with systematic Backend engineering skills toward Full Stack mastery.",
     },
     categories: [
       {
-        title: "Core Technologies",
+        title: "Frontend Core & Frameworks",
         icon: "fas fa-code",
         iconColor: "text-blue-600 dark:text-blue-400",
         skills: [
@@ -580,9 +582,25 @@ export const portfolioData: PortfolioData = {
           "JavaScript (ES6+)",
           "React",
           "Next.js",
+          "Vue.js",
           "HTML5",
           "CSS3",
           "SCSS",
+        ],
+      },
+      {
+        title: "Backend & Database (Đang phát triển chuyên sâu)",
+        icon: "fas fa-server",
+        iconColor: "text-emerald-600 dark:text-emerald-400",
+        skills: [
+          "NestJS",
+          "Node.js",
+          "Express.js",
+          "Prisma ORM",
+          "PostgreSQL",
+          "MongoDB",
+          "RESTful APIs",
+          "JWT Auth",
         ],
       },
       {
@@ -603,28 +621,25 @@ export const portfolioData: PortfolioData = {
         title: "State Management & Data Fetching",
         icon: "fas fa-project-diagram",
         iconColor: "text-indigo-600 dark:text-indigo-400",
-        skills: ["Redux", "Redux-Saga", "RTK Query", "Vuex", "Axios"],
+        skills: [
+          "Redux",
+          "Redux-Saga",
+          "RTK Query",
+          "Vuex",
+          "Axios",
+          "SWR / React Query",
+        ],
       },
       {
-        title: "Forms & Validation",
+        title: "Forms & Data Processing",
         icon: "fas fa-file-lines",
         iconColor: "text-green-600 dark:text-green-400",
         skills: [
           "Formik",
           "Yup",
-          "Form Validation",
-          "Multi-step Form Handling",
-        ],
-      },
-      {
-        title: "API & Data Handling",
-        icon: "fas fa-network-wired",
-        iconColor: "text-teal-600 dark:text-teal-400",
-        skills: [
-          "RESTful APIs",
-          "GraphQL",
-          "Axios",
           "ExcelJS",
+          "Zod / Class-Validator",
+          "Multi-step Form Handling",
         ],
       },
       {
@@ -640,42 +655,29 @@ export const portfolioData: PortfolioData = {
         ],
       },
       {
-        title: "Backend & Database (Foundations)",
-        icon: "fas fa-database",
-        iconColor: "text-emerald-600 dark:text-emerald-400",
-        skills: [
-          "Node.js",
-          "Express.js",
-          "NestJS",
-          "Prisma",
-          "SQL",
-          "MongoDB",
-        ],
-      },
-      {
         title: "Tools & DevOps",
         icon: "fas fa-wrench",
         iconColor: "text-amber-600 dark:text-amber-400",
         skills: [
           "Git",
           "GitLab",
-          "Docker (basic)",
-          "PM2 (basic)",
+          "Docker",
+          "PM2",
+          "Linux / VPS",
           "Cursor",
-          "Codex",
           "Postman",
         ],
       },
       {
-        title: "Development Practices",
+        title: "Architecture & Practices",
         icon: "fas fa-layer-group",
         iconColor: "text-cyan-600 dark:text-cyan-400",
         skills: [
-          "Responsive Web Design",
-          "Reusable Component Architecture",
-          "Cross-browser Compatibility",
-          "WebView Development",
+          "Monorepo Architecture",
+          "Modular Component Design",
+          "RESTful API Design",
           "Role-based Access Control (RBAC)",
+          "Responsive & WebView",
         ],
       },
     ],
@@ -747,6 +749,18 @@ export const portfolioData: PortfolioData = {
       },
       {
         title: {
+          vi: "Năng lực Backend thực tế & Tư duy Full-Stack",
+          en: "Hands-on Backend & Full-Stack Mindset",
+        },
+        description: {
+          vi: "Kinh nghiệm thực hành phát triển Backend bằng NestJS, Prisma ORM, PostgreSQL và Docker trong dự án thực tế; am hiểu luồng giao tiếp client-server toàn diện.",
+          en: "Practical experience building backend systems with NestJS, Prisma ORM, PostgreSQL, and Docker; deep understanding of end-to-end client-server workflows.",
+        },
+        icon: "fas fa-server",
+        iconColor: "text-emerald-600 dark:text-emerald-400",
+      },
+      {
+        title: {
           vi: "Xây dựng Nền tảng Quản trị Phức tạp",
           en: "Complex Enterprise & Admin Platforms",
         },
@@ -783,27 +797,15 @@ export const portfolioData: PortfolioData = {
       },
       {
         title: {
-          vi: "Quản lý State & Form nghiệp vụ nhiều bước",
-          en: "State Management & Multi-Step Forms",
+          vi: "Vận hành & Triển khai Thực tế",
+          en: "DevOps & Practical Deployment",
         },
         description: {
-          vi: "Thành thạo Redux-Saga, RTK Query và xử lý các luồng form nghiệp vụ phức tạp, xác thực dữ liệu chặt chẽ với Formik và Yup.",
-          en: "Proficient with Redux-Saga, RTK Query and managing complex multi-step form workflows with robust Formik/Yup validation.",
-        },
-        icon: "fas fa-project-diagram",
-        iconColor: "text-indigo-600 dark:text-indigo-400",
-      },
-      {
-        title: {
-          vi: "Hiểu biết Backend & Deployment",
-          en: "Backend & Deployment Foundations",
-        },
-        description: {
-          vi: "Hiểu rõ kiến trúc Node.js/NestJS, SQL/MongoDB, Docker và PM2, giúp trao đổi kỹ thuật hiệu quả và tích hợp API mượt mà với đội ngũ Backend.",
-          en: "Solid grasp of Node.js/NestJS, SQL/MongoDB, Docker, and PM2, facilitating efficient technical discussions and smooth API integration.",
+          vi: "Hiểu rõ và thực hành containerization với Docker, vận hành ứng dụng trên Linux/PM2, và xây dựng luồng CI/CD với GitLab để tự động hóa kiểm thử và deploy.",
+          en: "Practical experience with Docker containerization, application deployment on Linux/PM2, and building GitLab CI/CD pipelines for automated testing and deployment.",
         },
         icon: "fas fa-database",
-        iconColor: "text-emerald-600 dark:text-emerald-400",
+        iconColor: "text-cyan-600 dark:text-cyan-400",
       },
     ],
   },
@@ -814,8 +816,8 @@ export const portfolioData: PortfolioData = {
       en: "Featured Projects",
     },
     subtitle: {
-      vi: "Các sản phẩm thực tế tôi đã xây dựng trong lĩnh vực quản lý chính phủ, cổng tuyển dụng, ví điện tử WebView và bảo hiểm.",
-      en: "Key production platforms I have built across government workforce management, recruitment portals, WebView e-wallets, and insurance.",
+      vi: "Các sản phẩm thực tế tôi đã xây dựng từ dự án full-stack cá nhân đến các nền tảng chính phủ, cổng tuyển dụng và ví điện tử WebView.",
+      en: "Key production and personal platforms I have built, ranging from full-stack e-commerce to government workforce management, partner portals, and WebView e-wallets.",
     },
     searchPlaceholder: {
       vi: "Tìm kiếm dự án theo tên hoặc công nghệ...",
@@ -826,16 +828,43 @@ export const portfolioData: PortfolioData = {
       en: "All",
     },
     filters: [
-      "React",
+      "Full Stack",
+      "NestJS",
       "Next.js",
+      "React",
       "TypeScript",
+      "PostgreSQL",
       "Vue.js",
       "Tailwind CSS",
       "Redux-Saga",
-      "RTK Query",
-      "GraphQL",
+      "Docker",
     ],
     projects: [
+      {
+        title: {
+          vi: "Badminton Shop – Nền tảng E-Commerce Full-Stack",
+          en: "Badminton Shop – Full-Stack E-Commerce Platform",
+        },
+        company: {
+          vi: "Dự án cá nhân (Đang phát triển)",
+          en: "Personal Project (In Progress)",
+        },
+        description: {
+          vi: "Hệ thống thương mại điện tử full-stack cho dụng cụ và phụ kiện cầu lông. Ứng dụng kiến trúc monorepo gồm Client (Next.js), Admin Portal và Backend RESTful API (NestJS). Sử dụng PostgreSQL kết hợp Prisma ORM để quản lý cơ sở dữ liệu quan hệ, tích hợp xác thực tài khoản JWT, quản lý sản phẩm, danh mục, giỏ hàng, và đóng gói triển khai bằng Docker.",
+          en: "Full-stack e-commerce platform for badminton equipment and accessories. Built with a monorepo architecture containing Client (Next.js), Admin Portal, and a NestJS RESTful API backend. Utilizes PostgreSQL with Prisma ORM for relational data management, JWT authentication, product & category catalog, shopping cart, and containerized deployment with Docker.",
+        },
+        technologies: [
+          "Full Stack",
+          "NestJS",
+          "Next.js",
+          "TypeScript",
+          "PostgreSQL",
+          "Prisma",
+          "Tailwind CSS",
+          "Docker",
+        ],
+        url: "https://github.com/NDuyToan",
+      },
       {
         title: {
           vi: "Quản lý lao động thời vụ – Sản phẩm Chính phủ Hàn Quốc",
@@ -993,55 +1022,58 @@ export const portfolioData: PortfolioData = {
       en: "Career Journey & Technical Impact",
     },
     subtitle: {
-      vi: "Hơn 4 năm kinh nghiệm xây dựng các ứng dụng web chất lượng cao, từ kiến trúc frontend, tối ưu hiệu năng đến tích hợp API mượt mà.",
-      en: "4+ years of professional experience delivering high-quality web applications, focusing on frontend architecture, performance, and seamless API integration.",
+      vi: "Hơn 4 năm kinh nghiệm xây dựng ứng dụng web chất lượng cao, kết hợp phát triển dự án full-stack thực tế với NestJS, Next.js và PostgreSQL.",
+      en: "4+ years of professional web development experience, combined with hands-on full-stack engineering using NestJS, Next.js, and PostgreSQL.",
     },
     items: [
       {
-        title: "Personal Projects & Technical Learning",
-        company: "Self-Employed / Independent",
+        title: "Frontend & Aspiring Full-Stack Developer",
+        company: "Dự án cá nhân & Nâng cao kỹ thuật (Personal Projects)",
         period: "12/2025 – Present",
         color: "text-purple-600 dark:text-purple-400",
-        project: "Full-Stack Development & Performance Engineering",
+        project: "Full-Stack Badminton Shop & Backend Engineering (NestJS, Prisma, PostgreSQL)",
         technologies: [
-          "React",
+          "NestJS",
           "Next.js",
           "TypeScript",
-          "Tailwind CSS",
-          "Shadcn UI",
-          "Node.js",
-          "Express.js",
-          "NestJS",
+          "PostgreSQL",
           "Prisma",
-          "MongoDB",
+          "Tailwind CSS",
           "Docker",
+          "PM2",
+          "GitLab CI/CD",
         ],
         responsibilities: [
           {
-            vi: "• Xây dựng các dự án cá nhân sử dụng React, Next.js, TypeScript và các thư viện UI hiện đại nhằm củng cố kiến trúc frontend và thiết kế component tái sử dụng.",
-            en: "• Built personal projects using React, Next.js, TypeScript, and modern UI libraries to strengthen frontend architecture and reusable component design.",
+            vi: "• Thiết kế và triển khai kiến trúc monorepo cho dự án full-stack Badminton Shop gồm Frontend (Next.js), Admin Portal và Backend RESTful API (NestJS).",
+            en: "• Designed and implemented a monorepo architecture for full-stack Badminton Shop consisting of Frontend (Next.js), Admin Portal, and NestJS RESTful API backend.",
           },
           {
-            vi: "• Thực hành phát triển ứng dụng full-stack hoàn chỉnh với authentication, RESTful APIs, validate form, state management và giao diện responsive.",
-            en: "• Practiced building full-stack applications with authentication, RESTful APIs, form validation, state management, and responsive design.",
+            vi: "• Xây dựng các tính năng quản lý sản phẩm, danh mục, xác thực người dùng (JWT Auth) và thiết kế cơ sở dữ liệu quan hệ với PostgreSQL và Prisma ORM.",
+            en: "• Built product and category management, user authentication (JWT Auth), and designed relational database schemas with PostgreSQL and Prisma ORM.",
           },
           {
-            vi: "• Tối ưu hóa hiệu năng ứng dụng thông qua Lazy Loading, Code Splitting, API Caching, phân trang dữ liệu và tối ưu hóa quá trình re-rendering.",
-            en: "• Improved application performance through lazy loading, code splitting, API caching, pagination, and rendering optimization.",
+            vi: "• Phát triển giao diện người dùng responsive, tối ưu UX/UI với Next.js và Tailwind CSS, chú trọng tính tái sử dụng và khả năng bảo trì của component.",
+            en: "• Developed responsive, clean UI with Next.js and Tailwind CSS, focusing on reusable and maintainable component architecture.",
           },
           {
-            vi: "• Mở rộng kiến thức backend và deployment thực tế với Node.js, Express.js, NestJS, MongoDB, Prisma, Docker, Linux và quy trình CI/CD.",
-            en: "• Expanded backend and deployment knowledge through Node.js, Express.js, NestJS, MongoDB, Prisma, Docker, Linux, and CI/CD workflows.",
+            vi: "• Thực hành container hóa ứng dụng với Docker, triển khai thử nghiệm trên môi trường Linux VPS với PM2 và thiết lập pipeline GitLab CI/CD để tự động hóa build/deploy.",
+            en: "• Practiced containerization with Docker, staged deployment on Linux VPS with PM2, and built GitLab CI/CD pipelines to automate build and deployment.",
+          },
+          {
+            vi: "• Nâng cao vững chắc kiến thức về NestJS, Prisma, PostgreSQL, Docker và CI/CD thông qua quá trình phát triển, kiểm thử và vận hành dự án thực tế.",
+            en: "• Strengthened knowledge of NestJS, Prisma, PostgreSQL, Docker, and CI/CD through real-world project development, testing, and operations.",
           },
         ],
-        links: [],
+        links: ["https://github.com/NDuyToan"],
       },
       {
         title: "Frontend Developer",
         company: "EnjoyWorks Company",
         period: "01/2023 – 11/2025",
         color: "text-green-600 dark:text-green-400",
-        project: "Government Workforce Management, Goodtraepay & Linglow Portal",
+        project:
+          "Government Workforce Management, Goodtraepay & Linglow Portal",
         technologies: [
           "React",
           "Next.js",
@@ -1250,8 +1282,8 @@ export const portfolioData: PortfolioData = {
       en: "Let's Build Something Impactful Together",
     },
     subtitle: {
-      vi: "Tôi luôn sẵn sàng đón nhận các cơ hội mới ở vị trí Middle Frontend Developer. Hãy liên hệ với tôi để cùng trao đổi!",
-      en: "I am actively open to new opportunities as a Middle Frontend Developer. Feel free to reach out and connect!",
+      vi: "Tôi luôn sẵn sàng đón nhận các cơ hội mới ở vị trí Frontend Developer hoặc Full Stack Developer. Hãy liên hệ với tôi để cùng trao đổi!",
+      en: "I am actively open to new opportunities as a Frontend Developer or Full Stack Developer. Feel free to reach out and connect!",
     },
     contactInfoTitle: {
       vi: "Thông tin liên hệ",
@@ -1302,8 +1334,8 @@ export const portfolioData: PortfolioData = {
       en: "Nguyen Duy Toan",
     },
     description: {
-      vi: "Middle Frontend Developer — chuyên xây dựng ứng dụng web hiện đại, scalable và hiệu năng cao với React, Next.js và TypeScript.",
-      en: "Middle Frontend Developer — building scalable, high-performance, modern web applications with React, Next.js, and TypeScript.",
+      vi: "Frontend Developer định hướng Full Stack — hơn 4 năm kinh nghiệm React, Next.js, TypeScript, đang phát triển chuyên sâu Backend với NestJS, PostgreSQL và Docker.",
+      en: "Frontend Developer aspiring to Full Stack — 4+ years of experience in React, Next.js, TypeScript, actively building backend expertise with NestJS, PostgreSQL, and Docker.",
     },
     socialLinks: [
       {
