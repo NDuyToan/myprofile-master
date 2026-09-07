@@ -19,25 +19,73 @@ export const ContactForm: React.FC = () => {
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSuccess, setIsSuccess] = useState(false);
+  const [errorMessage, setErrorMessage] = useState<string | null>(null);
 
   const handleInputChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ) => {
     const { name, value } = e.target;
     setIsSuccess(false);
+    setErrorMessage(null);
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    setIsSubmitting(true);
     setIsSuccess(false);
+    setErrorMessage(null);
 
-    await new Promise((resolve) => setTimeout(resolve, 1200));
+    if (!formData.name.trim() || !formData.email.trim() || !formData.message.trim()) {
+      setErrorMessage(
+        t(
+          "Vui lòng điền đầy đủ họ tên, email và nội dung tin nhắn.",
+          "Please fill in all required fields."
+        )
+      );
+      return;
+    }
 
-    setFormData({ name: "", email: "", message: "" });
-    setIsSubmitting(false);
-    setIsSuccess(true);
+    setIsSubmitting(true);
+
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          name: formData.name.trim(),
+          email: formData.email.trim(),
+          message: formData.message.trim(),
+        }),
+      });
+
+      const data = await res.json();
+
+      if (!res.ok) {
+        throw new Error(
+          data.error ||
+            t(
+              "Gửi tin nhắn thất bại. Vui lòng thử lại sau.",
+              "Failed to send message. Please try again later."
+            )
+        );
+      }
+
+      setFormData({ name: "", email: "", message: "" });
+      setIsSuccess(true);
+    } catch (err: unknown) {
+      const msg =
+        err instanceof Error
+          ? err.message
+          : t(
+              "Đã có lỗi xảy ra. Vui lòng thử lại sau.",
+              "An error occurred. Please try again later."
+            );
+      setErrorMessage(msg);
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -54,6 +102,16 @@ export const ContactForm: React.FC = () => {
               portfolioData.contact.form.successMessage.en
             )}
           </p>
+        </div>
+      )}
+
+      {errorMessage && (
+        <div
+          role="alert"
+          className="flex items-start gap-3 rounded-lg border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-800 dark:border-red-800/40 dark:bg-red-950/30 dark:text-red-300"
+        >
+          <i className="fas fa-exclamation-circle mt-0.5 shrink-0 text-red-600 dark:text-red-400" aria-hidden />
+          <p>{errorMessage}</p>
         </div>
       )}
 
